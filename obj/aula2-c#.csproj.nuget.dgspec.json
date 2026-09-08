@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALUNO\\Desktop\\aula2-c#\\aula2-c#.csproj": {}
+    "C:\\Users\\ALUNO\\Desktop\\c-\\aula2-c#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALUNO\\Desktop\\aula2-c#\\aula2-c#.csproj": {
+    "C:\\Users\\ALUNO\\Desktop\\c-\\aula2-c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALUNO\\Desktop\\aula2-c#\\aula2-c#.csproj",
+        "projectUniqueName": "C:\\Users\\ALUNO\\Desktop\\c-\\aula2-c#.csproj",
         "projectName": "aula2-c#",
-        "projectPath": "C:\\Users\\ALUNO\\Desktop\\aula2-c#\\aula2-c#.csproj",
+        "projectPath": "C:\\Users\\ALUNO\\Desktop\\c-\\aula2-c#.csproj",
         "packagesPath": "C:\\Users\\ALUNO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALUNO\\Desktop\\aula2-c#\\obj\\",
+        "outputPath": "C:\\Users\\ALUNO\\Desktop\\c-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALUNO\\AppData\\Roaming\\NuGet\\NuGet.Config"
