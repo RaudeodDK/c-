@@ -4,7 +4,54 @@ class Program
     static void Main()
 
     {
+        double saldo = 500;
+        int opcao;
+        double deposito;
+        double saque;
 
+        do
+        {
+            Console.WriteLine("--------- Menu Banco ---------");
+            Console.WriteLine("1 - Consultar saldo");
+            Console.WriteLine("2 - Depositar dinheiro");
+            Console.WriteLine("3 - Sacar");
+            Console.WriteLine("0 - Sair");
+            Console.Write("Escolha uma opção: ");
+
+            opcao = int.Parse(Console.ReadLine());
+
+            if (opcao == 1 ){
+                Console.WriteLine($"Seu saldo é de: R$ {saldo}");
+            }
+            
+            else if (opcao == 2 ){
+                Console.Write("Quanto deseja depositar?: ");
+                deposito = double.Parse(Console.ReadLine());
+
+                saldo = saldo + deposito;
+            }
+
+            else if (opcao == 3 ){
+                Console.Write("Quanto deseja sacar?: ");
+                saque = double.Parse(Console.ReadLine());
+
+                if (saldo < saque){
+                    Console.WriteLine("Saldo insuficiente");
+                }
+                else{
+                    saldo = saldo - saque;
+                }
+
+            }
+            else if (opcao > 3 || opcao < 0)
+            {
+                Console.WriteLine("Opção inválida, tente novamente");
+            }
+        }
+        while (opcao != 0);
+            {
+                Console.WriteLine("Obrigado por usar o nosso sistema.");
+            }
     }
 }
 
